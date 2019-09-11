@@ -15,12 +15,13 @@ $userRow=mysqli_fetch_array($res, MYSQLI_ASSOC);
 <!DOCTYPE html>
 <html>
 <head >
-<title>Welcome - <?php echo $userRow['userEmail' ]; ?></title>
+<title>Welcome - <?php echo $userRow['userName' ]; ?></title>
+<link rel="stylesheet" type="text/css" href="home.css">
 </head>
 <body >
-          Hi <?php echo $userRow['userEmail' ]; ?>
+          <h1 class="welcome">Hi <?php echo $userRow['userName' ]; ?>
             
-           <a  href="logout.php?logout">Sign Out</a>
+           <a  href="logout.php?logout">Sign Out</a></h1>
   
         
   
