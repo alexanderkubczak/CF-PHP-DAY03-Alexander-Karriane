@@ -19,11 +19,8 @@ $userRow=mysqli_fetch_array($res, MYSQLI_ASSOC);
 <link rel="stylesheet" type="text/css" href="home.css">
 </head>
 <body >
-          <h1 class="welcome">Hi <?php echo $userRow['userName' ]; ?>
-
-        	<a class="nav-link active" href="booking.php">booking</a>
-            
-           <a  href="logout.php?logout">Sign Out</a></h1>
+          <h1 class="welcome">booking</h1>
+          
   
         
   
